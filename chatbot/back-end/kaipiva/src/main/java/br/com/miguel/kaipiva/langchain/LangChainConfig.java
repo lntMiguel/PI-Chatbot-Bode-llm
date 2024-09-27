@@ -69,7 +69,7 @@ public class LangChainConfig {
             Tokenizer tokenizer, // Tokenizer is provided by langchain4j-open-ai-spring-boot-starter
             ResourceLoader resourceLoader) {
         return args -> {
-            var resource = resourceLoader.getResource("classpath:terms-of-service.txt");
+            var resource = resourceLoader.getResource("classpath:sobreSenac.txt");
             var termsOfUse = loadDocument(resource.getFile().toPath(), new TextDocumentParser());
             var ingestor = EmbeddingStoreIngestor.builder()
                     .documentSplitter(recursive(50, 0, tokenizer))
