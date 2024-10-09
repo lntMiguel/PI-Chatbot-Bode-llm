@@ -81,7 +81,6 @@ function Header(){
           </div>
             <img className="fundo" src="imagem/fundo2.png" height="auto" width="100%"/>
         </StyledHeader>
-
     )
 }
 
