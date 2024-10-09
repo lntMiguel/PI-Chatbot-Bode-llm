@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "-": "^0.0.1",
+    "i": "^0.3.7",
+    "styled-components": "^6.1.13"
+  }
+}
