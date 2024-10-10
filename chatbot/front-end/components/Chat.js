@@ -1,5 +1,7 @@
+'use client';
+
 import styled from "styled-components";
-import Link from "next/link";
+import { useRouter } from 'next/navigation';
 
 const StyledChat = styled.div`
 
@@ -43,11 +45,17 @@ a {
 
 `
 function chat(){
-    return(
+  const router = useRouter();  
+
+  const handleRedirect = () => {
+    router.push('/login');
+  };
+
+  return(
     <StyledChat>
-    <button>
-         <Link href="/login">Conversar</Link>  
-    </button>      
+      <button onClick={handleRedirect}>
+          Conversar
+      </button>      
     </StyledChat>
     )
 }

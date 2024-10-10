@@ -141,11 +141,11 @@ function Botao() {
   };
     return(
         <StyledBotao>
-        <button onMouseEnter={playAudio} class="btn-53">
+        <button onMouseEnter={playAudio} className="btn-53">
         <audio ref={audioRef}/>
         <source src="../som/corin.mp3" type="audio/mpe3"/>
-        <div class="original">Corinthians</div>
-        <div class="letters">  
+        <div className="original">Corinthians</div>
+        <div className="letters">  
             <span>C</span>
             <span>O</span>
             <span>R</span>
