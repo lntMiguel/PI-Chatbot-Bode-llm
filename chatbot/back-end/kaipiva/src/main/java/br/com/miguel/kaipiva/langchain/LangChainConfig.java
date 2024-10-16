@@ -8,7 +8,10 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ResourceLoader;
 import static dev.langchain4j.data.document.splitter.DocumentSplitters.recursive;
 import static dev.langchain4j.data.document.loader.FileSystemDocumentLoader.loadDocument;
+import java.io.FileNotFoundException;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import dev.langchain4j.data.document.parser.TextDocumentParser;
 import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
@@ -26,6 +29,7 @@ import dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore;
 
 @Configuration
 public class LangChainConfig {
+    private static final Logger log = LoggerFactory.getLogger(LangChainConfig.class);
     @Bean
     public OllamaChatModel chatLanguageModel() {
         return OllamaChatModel.builder()
@@ -56,10 +60,6 @@ public class LangChainConfig {
         return new InMemoryEmbeddingStore<>();
     }
 
-    
- 
-
-
     // In the real world, ingesting documents would often happen separately, on a CI
     // server or similar
     @Bean
@@ -70,13 +70,18 @@ public class LangChainConfig {
             ResourceLoader resourceLoader) {
         return args -> {
             var resource = resourceLoader.getResource("classpath:sobreSenac.txt");
+            if (!resource.exists()) {
+                throw new FileNotFoundException("Arquivo sobreSenac.txt não encontrado");
+            }
             var termsOfUse = loadDocument(resource.getFile().toPath(), new TextDocumentParser());
             var ingestor = EmbeddingStoreIngestor.builder()
                     .documentSplitter(recursive(50, 0, tokenizer))
                     .embeddingModel(embeddingModel)
                     .embeddingStore(embeddingStore)
                     .build();
+            log.info("Ingestão de documentos iniciada.");
             ingestor.ingest(termsOfUse);
+            log.info("Ingestão de documentos concluída.");
         };
     }
 

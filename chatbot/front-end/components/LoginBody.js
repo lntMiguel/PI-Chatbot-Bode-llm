@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useRouter } from 'next/navigation';
 
 const Styledbody = styled.div`
 
@@ -64,11 +65,17 @@ const Box = styled.div`
   text-align: center;
 `
 function LoginBody(){
+  const router = useRouter();  
+
+  const handleRedirect = () => {
+    router.push('/chat');
+  };
+
   return(
     <Styledbody>
       <Box className="box" >
       <img className="mas" src="imagem/mascote.png"/>  
-      <button>Login</button>
+      <button onClick={handleRedirect}>Login</button>
       <button>Cadastrar</button>
       
       </Box>

@@ -1,188 +1,252 @@
-Quem somos?
-Desde 1946, trabalhamos para transformar vidas. Aqui, pessoas de todas as idades são incentivadas a desenvolver seu potencial para expandir suas possibilidades de futuro. É assim que formamos profissionais que sabem fazer grandes ideias virarem realidade.
-A educação transforma a vida das pessoas. Sabendo disso, há mais de sete décadas, o Conselho Nacional do Comércio criou o Serviço Nacional de Aprendizagem Comercial (Senac), referência em educação profissional no país.
+# Saudações /respostas para Oi/Olá/informações sobre você
+- Olá, meu nome é Kap, como posso ajudar?
+- Torço para o time Corinthians
 
-Como Educamos?
-Em um espaço seguro de aprendizagem, onde ideias e perguntas são sempre bem-vindas! A partir do diálogo e respeito às diferenças, você aprende de forma colaborativa, com aulas dinâmicas e "mão na massa".
+# Sobre o Senac
 
-No que Acreditamos?
-Acreditamos que a educação de qualidade é o caminho para as pessoas atuarem com autonomia e atitude crítica. Por isso, todos os dias, incentivamos nossos estudantes a conquistarem seus sonhos e reforçamos, assim, o nosso compromisso com a sociedade.
+- Desde 1946, trabalhamos para transformar vidas. 
+- Aqui, pessoas de todas as idades são incentivadas a desenvolver seu potencial para expandir suas possibilidades de futuro.
+- É assim que formamos profissionais que sabem fazer grandes ideias virarem realidade.
+- A educação transforma a vida das pessoas. Sabendo disso, há mais de sete décadas, o Conselho Nacional do Comércio criou o Serviço Nacional de Aprendizagem Comercial (Senac), referência em educação profissional no país.
 
-Como Inovamos?
-Sabemos que inovar é uma atitude, um jeito de ser, ou, como gostamos de dizer, faz parte do nosso "Jeito Senac de Educar". Aqui, a inovação vai além dos nossos cursos: está presente em nossas soluções de governança, processos e sistemas.
+## Como educa
+- O Senac educa em um espaço seguro de aprendizagem, onde ideias e perguntas são sempre bem-vindas! A partir do diálogo e respeito às diferenças, você aprende de forma colaborativa, com aulas dinâmicas e "mão na massa".
 
-Quem faz o Senac?
-Juntos, funcionários e estudantes dão vida ao Senac São Paulo. Somos milhares de pessoas de diferentes gêneros, idades e histórias que se encontram neste espaço de diversidade, construindo uma comunidade inspirada pelo poder da educação.
+## No que Acredita
+- Acreditamos que a educação de qualidade é o caminho para as pessoas atuarem com autonomia e atitude crítica. Por isso, todos os dias, incentivamos nossos estudantes a conquistarem seus sonhos e reforçamos, assim, o nosso compromisso com a sociedade.
 
-Missão
-Educar para o trabalho, de forma inovadora e inclusiva, em atividades do comércio de bens, serviços e turismo. 
+## Como Inova
+- Sabemos que inovar é uma atitude, um jeito de ser, ou, como gostamos de dizer, faz parte do nosso "Jeito Senac de Educar". Aqui, a inovação vai além dos nossos cursos: está presente em nossas soluções de governança, processos e sistemas.
+- Juntos, funcionários e estudantes dão vida ao Senac São Paulo. Somos milhares de pessoas de diferentes gêneros, idades e histórias que se encontram neste espaço de diversidade, construindo uma comunidade inspirada pelo poder da educação.
 
-Visão
-Transformar vidas e fortalecer o setor de comércio de bens, serviços e turismo.
-Ser a instituição brasileira que oferece as melhores soluções em educação profissional, reconhecida pelas empresas.
+## Missão
+- Nossa missão é educar para o trabalho, de forma inovadora e inclusiva, em atividades do comércio de bens, serviços e turismo. 
 
-Valores
-Ética - Transparência - Diversidade - Inovação - Sustentabilidade - Transformação Social.
+## Visão
+- Nossa visão é transformar vidas e fortalecer o setor de comércio de bens, serviços e turismo.
+- Ser a instituição brasileira que oferece as melhores soluções em educação profissional, reconhecida pelas empresas.
 
-O que fazemos?
-São muitos projetos e desafios para apresentar a você uma formação inovadora, que alia o aprender na prática com tecnologias e infraestrutura de referência no mercado. Confira nossa programação!
-Além dos cursos, oferecemos soluções especiais para empresas. Temos dois hotéis-escola reconhecidos dentro e fora do país e a nossa Editora já comercializou mais de 11 milhões de exemplares.
+## Valores
+- Nossos valores são Ética - Transparência - Diversidade - Inovação - Sustentabilidade - Transformação Social.
 
-Áreas do conhecimento
-Bem-estar: Estética Massoterapia Podologia Práticas integrativas e complementares. Comunicação e Artes: Arte e cultura Cinema, vídeo, rádio e TV Comunicação social Espanhol Fotografia Francês Inglês Libras Português Outros idiomas. Desenvolvimento Social: Desenvolvimento social. Design e Arquitetura: Arquitetura e urbanismo Design. Educação: Educação. Gastronomia e Nutrição: Alimentação coletiva Cozinha Nutrição Produção de alimentos Sala, bar e restaurante. Gestão e Negócios: Administração geral Comércio exterior Finanças e contabilidade Gestão de pessoas Logística Marketing Vendas. Infraestruturas: Asseio, conservação e zeladoria. Meio Ambiente, Segurança e Saúde no Trabalho: Meio ambiente Segurança e saúde no trabalho. Moda e Beleza: Beleza, Moda. Saúde: Análises clínicas Atividades físicas Enfermagem Farmácia Gestão de serviços de saúde Odontologia Óptica Psicologia Radiodiagnóstico. Tecnologia da Informação: Aplicativos Computação gráfica e internet Games Gestão em tecnologia da informação e desenvolvimento de sistemas Redes e infraestrutura. Turismo e Hospitalidade: Eventos Hotelaria Lazer Turismo.
+## O que faz
+- O que fazemos? São muitos projetos e desafios para apresentar a você uma formação inovadora, que alia o aprender na prática com tecnologias e infraestrutura de referência no mercado. Confira nossa programação!
+- Além dos cursos, oferecemos soluções especiais para empresas. Temos dois hotéis-escola reconhecidos dentro e fora do país e a nossa Editora já comercializou mais de 11 milhões de exemplares.
 
-Números e Dados Relevantes
-491.121 matrículas 
-92.709.945 horas-aula realizadas
-75.676 ações extensivas 
-Matrículas por modalidade de ensino: 
-Presencial: 430.489 
-Ensino a Distância: 60.632 
+##Localização
+- Você sempre encontra o Senac por perto! Estamos distribuídos em várias regiões do Estado, com unidades na capital, Grande São Paulo, interior e litoral.
 
-Cursos ofertados: 1.846 títulos 
-Matrículas por região: 
-São Paulo: 224.035 
-Grande São Paulo: 44.743 
-Interior e litoral: 222.343 
-Educação a distância: 
-56 polos para cursos técnicos* 
-57 polos para o ensino superior* 
-127 cursos ofertados Polos credenciados do Senac São Paulo (Rede SP) 
-Perfil de público: 
-65,9% são mulheres 
-56,5% têm o ensino médio completo 
-14,3% têm o ensino superior completo 
-26,4% tinham carteira de trabalho assinada 
-69,6% estudaram somente em escola pública 
-31 anos é a idade média
-Em 2023, concedemos à população do Estado de São Paulo 237.239 bolsas de estudo pelo Programa Senac de Gratuidade e 6.694 de Responsabilidade Social.
-12. Transparência e prestação de contas
-A Transparência e Prestação de Contas Senac é um espaço dedicado à disponibilização de dados e informações sobre a gestão orçamentária, financeira e finalística do Serviço Nacional de Aprendizagem Comercial – Senac em todo o território nacional, além de possibilitar ao cidadão acesso a ferramentas para solicitação de informações sobre programas e atividades da Instituição. O espaço atende as disposições da Lei de Diretrizes Orçamentárias – LDO, bem como ao Acórdão TCU nº 699/2016-Plenário.
-Há muito, o Senac compreende o princípio da Transparência como uma premissa basilar do seu processo de gestão. No universo corporativo, o termo serve para designar “o compromisso de divulgar junto ao Poder Público, à sociedade em geral e aos demais públicos de interesses da Organização, informações relevantes sobre o seu desempenho e o alcance social de suas atividades”. Portanto, é um processo de comunicação que se instala para e pela sociedade.
-Os dados tramitados no Transparência e Prestação de Contas estão em conformidade com os princípios e bases legais da Lei n.º 13.709/2018. O atendimento à LGPD é realizado de forma integrada e complementar ao decreto n.º 9.781/2019.
+#Áreas de Conhecimento
 
-Como cadastrar meu currículo? 
-Para cadastrar o seu currículo e se candidatar a uma vaga, siga as orientações abaixo:
-1.	Acesse o site do Senac (www.sp.senac.br)
-2.	Clique no banner do Trabalhe Conosco; 
-3.	No menu superior, clique em Meu Currículo;
-4.	Caso você já tenha um cadastro no site do Senac, preencha seus dados de acesso no item já sou cadastrado. Caso contrário, clique em Quero me Cadastrar e preencha o formulário;
-5.	Em seguida, você receberá no e-mail cadastrado um link para confirmar o login único;
-6.	Acesse novamente o site do Senac, item Trabalhe Conosco e depois Meu Currículo;
-7.	Preencha completamente os dados do currículo (parte 1 e 2);
-8.	No menu superior, clique em Mural de Oportunidades;
-9.	Clique na vaga de seu interesse;
-10.	Em seguida, clique em Inscreva-se aqui.
+##Bem-estar 
+- Estética Massoterapia Podologia Práticas integrativas e complementares. 
 
-Como é o Processo de Seleção?
-O processo de seleção consiste em no mínimo três etapas: triagem de currículos, dinâmica de grupo e entrevista com requisitante, podendo ser alterado e acrescentado outras fases de acordo com a vaga em questão.
+##Comunicação e Artes
+- Arte e cultura Cinema, vídeo, rádio e TV Comunicação social Espanhol Fotografia Francês Inglês Libras Português Outros idiomas. 
 
-Posso enviar meu currículo por email ou dirigir-me a uma unidade do Senac e entregá-lo pessoalmente?
-Não, nosso processo seletivo é 100% informatizado, portanto seu currículo deve ser cadastrado diretamente em nosso sistema, sem qualquer custo para inclusão ou manutenção.
+##Desenvolvimento Social 
+- Desenvolvimento social. 
 
-Devo preencher todos os campos?
-Nossa triagem é feita sempre pelo sistema, levando em consideração as informações do seu currículo (como escolaridade e experiências profissionais). Assim é imprescindível que as informações estejam preenchidas no campo correspondente e de forma mais completa possível para que o sistema possa identificar os candidatos que atendam ao perfil solicitado.
+##Design e Arquitetura 
+- Arquitetura e urbanismo Design. 
 
-Cadastrei meus dados no site. Como faço para concorrer a uma vaga em aberto?
-Após o cadastramento do seu currículo, localize a vaga que lhe interessa no mural de oportunidades e em seguida clique em "Inscreva-se aqui". Somente assim seu interesse em participar do processo seletivo será registrado.
+##Educação
+- Educação.
 
-Posso me candidatar a mais de uma vaga?
-Sim, você pode se vincular a quantas vagas tiver interesse.
+##Gastronomia e Nutrição 
+- Alimentação coletiva Cozinha Nutrição Produção de alimentos Sala, bar e restaurante. 
 
-Fui reprovado em um processo anterior. Posso me candidatar novamente?
-Sim, nada impede que você participe novamente de um novo processo para outra vaga de interesse.
+##Gestão e Negócios 
+- Administração geral Comércio exterior Finanças e contabilidade Gestão de pessoas Logística Marketing Vendas. 
 
-Como saberei se o Senac teve interesse pelo meu currículo?
-Caso seu currículo esteja dentro dos pré- requisitos exigidos pela vaga, o Senac entrará em contato com você, através do e-mail ou telefone cadastrados convocando-o para uma Dinâmica ou Entrevista. Portanto,é importante manter os seus dados sempre atualizados.
+##Infraestruturas 
+- Asseio, conservação e zeladoria. 
 
-Me candidatei a uma vaga, em quanto tempo vocês entrarão em contato comigo para iniciar a seleção?
-Não temos uma data específica para iniciar o processo seletivo. Assim que o processo for iniciado, entraremos em contato (por e-mail) com as pessoas que atendem os requisitos solicitados para a vaga.
+##Meio Ambiente, Segurança e Saúde no Trabalho 
+- Meio ambiente Segurança e saúde no trabalho. 
 
-Participei de uma dinâmica e percebi que funcionários do Senac também estavam participando. Porque isso acontece?
-Muitas das nossas oportunidades são abertas para o público externo e interno. Todos concorrem com igualdade de condições e passam pelas mesmas etapas.
+##Moda e Beleza 
+- Beleza, Moda. 
 
-Eu ainda tenho perguntas, posso falar com alguém?
-Se você possui uma questão específica que não foi solucionada acima, por favor envie uma mensagem ao nosso suporte https://www.sp.senac.br/fale-com-a-gente/suporte
+##Saúde
+- Análises clínicas Atividades físicas Enfermagem Farmácia Gestão de serviços de saúde Odontologia Óptica Psicologia Radiodiagnóstico. 
 
-Unidades do Senac
-Capital
-Centro Universitário Senac - Santo Amaro
-Aclimação
-Francisco Matarazzo
-Itaquera
-Jabaquara
-Jardim Primavera
-Lapa Faustolo
-Lapa Scipião
-Lapa Tito
-Largo Treze
-Penha
-Nações Unidas
-Santana
-São Miguel Paulista
-Tatuapé Cel. Luís Americano
-Tatuapé Serra de Bragança
-Tiradentes
-Vila Prudente
-Grande São Paulo e Litoral
-Bertioga
-Guarulhos Celestino
-Guarulhos Faccini
-Osasco
-Santos
-Santo André
-São Bernardo do Campo
-Taboão da Serra
-Interior
-Americana
-Araçatuba
-Araraquara
-Barretos
-Bauru
-Bebedouro
-Botucatu
-Campinas
-Catanduva
-Centro Universitário Senac - Águas de São Pedro
-Centro Universitário Senac - Campos do Jordão
-Franca
-Guaratinguetá
-Itapetininga
-Itapira
-Itu
-Jaboticabal
-Jaú
-Jundiaí
-Limeira
-Marília
-Mogi Guaçu
-Ourinhos
-Pindamonhangaba
-Piracicaba
-Presidente Prudente
-Registro
-Ribeirão Preto
-Rio Claro
-Salto
-São Carlos
-São João da Boa Vista
-São José do Rio Preto
-São José dos Campos
-Sorocaba
-Taubaté
-Votuporanga
+##Tecnologia da Informação(T.I)
+- Aplicativos Computação gráfica e internet Games Gestão em tecnologia da informação e desenvolvimento de sistemas Redes e infraestrutura. 
 
-Anúncio de vagas
-No Senac Carreiras conecte suas oportunidades aos melhores candidatos!
+##Turismo e Hospitalidade 
+- Eventos Hotelaria Lazer Turismo.
+
+#Números e Dados Relevantes
+
+- 491.121 matrículas 
+- 92.709.945 horas-aula realizadas
+- 75.676 ações extensivas 
+- Matrículas por modalidade de ensino: 
+- Presencial: 430.489 
+- Ensino a Distância: 60.632 
+- Cursos ofertados: 1.846 títulos 
+ 
+##Matrículas por região: 
+- São Paulo: 224.035 
+- Grande São Paulo: 44.743 
+- Interior e litoral: 222.343 
+- Educação a distância: 
+- 56 polos para cursos técnicos* 
+- 57 polos para o ensino superior* 
+- 127 cursos ofertados Polos credenciados do Senac São Paulo (Rede SP) 
+- Perfil de público: 
+- 65,9% são mulheres 
+- 56,5% têm o ensino médio completo 
+- 14,3% têm o ensino superior completo 
+- 26,4% tinham carteira de trabalho assinada 
+- 69,6% estudaram somente em escola pública 
+- 31 anos é a idade média
+- Em 2023, concedemos à população do Estado de São Paulo 237.239 bolsas de estudo pelo Programa Senac de Gratuidade e 6.694 de Responsabilidade Social.
+
+#Transparência e prestação de contas
+
+- A Transparência e Prestação de Contas Senac é um espaço dedicado à disponibilização de dados e informações sobre a gestão orçamentária, financeira e finalística do Serviço Nacional de Aprendizagem Comercial – Senac em todo o território nacional, além de possibilitar ao cidadão acesso a ferramentas para solicitação de informações sobre programas e atividades da Instituição. O espaço atende as disposições da Lei de Diretrizes Orçamentárias – LDO, bem como ao Acórdão TCU nº 699/2016-Plenário.
+- Há muito, o Senac compreende o princípio da Transparência como uma premissa basilar do seu processo de gestão. No universo corporativo, o termo serve para designar “o compromisso de divulgar junto ao Poder Público, à sociedade em geral e aos demais públicos de interesses da Organização, informações relevantes sobre o seu desempenho e o alcance social de suas atividades”. Portanto, é um processo de comunicação que se instala para e pela sociedade.
+- Os dados tramitados no Transparência e Prestação de Contas estão em conformidade com os princípios e bases legais da Lei n.º 13.709/2018. O atendimento à LGPD é realizado de forma integrada e complementar ao decreto n.º 9.781/2019.
+
+#Currículos, Processos seletivos, Jovem Aprendiz.
+## Cadastro de currículo
+- Para cadastrar o seu currículo e se candidatar a uma vaga, siga as orientações abaixo:
+- Acesse o site do Senac (www.sp.senac.br)
+- Clique no banner do Trabalhe Conosco; 
+- No menu superior, clique em Meu Currículo;
+- Caso você já tenha um cadastro no site do Senac, preencha seus dados de acesso no item já sou cadastrado. Caso contrário, clique em Quero me Cadastrar e preencha o formulário;
+- Em seguida, você receberá no e-mail cadastrado um link para confirmar o login único;
+- Acesse novamente o site do Senac, item Trabalhe Conosco e depois Meu Currículo;
+- Preencha completamente os dados do currículo (parte 1 e 2);
+- No menu superior, clique em Mural de Oportunidades;
+- Clique na vaga de seu interesse;
+- Em seguida, clique em Inscreva-se aqui.
+- Após o cadastramento do seu currículo, localize a vaga que lhe interessa no mural de oportunidades e em seguida clique em "Inscreva-se aqui". Somente assim seu interesse em participar do processo seletivo será registrado.
+
+##Processo seletivo
+- O processo de seleção consiste em no mínimo três etapas: triagem de currículos, dinâmica de grupo e entrevista com requisitante, podendo ser alterado e acrescentado outras fases de acordo com a vaga em questão.
+- Nosso processo seletivo é 100% informatizado, portanto seu currículo deve ser cadastrado diretamente em nosso sistema, sem qualquer custo para inclusão ou manutenção.
+
+##Triagem
+- Nossa triagem é feita sempre pelo sistema, levando em consideração as informações do seu currículo (como escolaridade e experiências profissionais). Assim é imprescindível que as informações estejam preenchidas no campo correspondente e de forma mais completa possível para que o sistema possa identificar os candidatos que atendam ao perfil solicitado.
+
+##Sobre vagas
+- Você pode se vincular a quantas vagas tiver interesse.
+
+- nada impede que você participe novamente de um novo processo para outra vaga de interesse.
+- Muitas das nossas oportunidades são abertas para o público externo e interno. Todos concorrem com igualdade de condições e passam pelas mesmas etapas.
+
+##Contato
+- Caso seu currículo esteja dentro dos pré- requisitos exigidos pela vaga, o Senac entrará em contato com você, através do e-mail ou telefone cadastrados convocando-o para uma Dinâmica ou Entrevista. Portanto,é importante manter os seus dados sempre atualizados.
+
+##Datas
+- Não temos uma data específica para iniciar o processo seletivo. Assim que o processo for iniciado, entraremos em contato (por e-mail) com as pessoas que atendem os requisitos solicitados para a vaga.
+
+##Informações adicionais
+- Se você possui uma questão específica que não foi solucionada acima, por favor envie uma mensagem ao nosso suporte https://www.sp.senac.br/fale-com-a-gente/suporte
+
+##Anúncio de vagas
+- No Senac Carreiras conecte suas oportunidades aos melhores candidatos!
 Aqui você cadastra e divulga suas vagas de estágio, trainee e efetivas, para dar match com alunos e profissionais qualificados e aderentes à sua necessidade. Além disso, pode consultar os currículos de nossos estudantes dos cursos técnicos, de graduação e pós-graduação do Centro Universitário Senac, das nossas unidades da capital, Grande São Paulo, interior e litoral. Também convidá-los para participar de processo seletivo, realizá-lo on-line, e ainda emitir toda a documentação de estágio digitalmente. https://senac.vacanti.com.br/view/login/
 
-Vaga não encaixa no Senac Carreiras
-Caso sua vaga não se encaixe no Senac Carreiras, temos ainda nosso mural digital acessado por alunos e egressos. Envie um e-mail para centralsenac@sp.senac.br 
+- Caso sua vaga não se encaixe no Senac Carreiras, temos ainda nosso mural digital acessado por alunos e egressos. Envie um e-mail para centralsenac@sp.senac.br 
 nos informando sobre sua oportunidade de trabalho.
-Atenção:
-As vagas precisam ter relação com nossas áreas de atuação.  Conte com a gente!
+- Atenção: As vagas precisam ter relação com nossas áreas de atuação.  Conte com a gente!
 
-Descontos e Parcelamento
+##Jovem Aprendiz
+
+- Diferenciais do programa Jovem Aprendiz do Senac: Referência de ensino, Suporte a aprendizes, Formação de tutores, Variedade de cursos, Mais de 50 unidades, Programa sem custo
+
+- Referência de ensino: Temos prioridade no atendimento a aprendizes
+
+- Suporte a aprendizes: Acompanhamento durante todo o período do contrato
+
+- Formação de tutores Para apoiar aprendizes na sua empresa
+
+- Variedade de cursos Para atender o segmento da sua empresa ou equipe
+
+- Mais de 50 unidades Disponíveis para formar jovens para sua empresa
+
+- Programa sem custo para empresas contribuintes do Senac
+
+- Contratando aprendizes, você ajuda a evitar a evasão escolar e capacita profissionais de acordo com a cultura da empresa.
+
+- Acesse nosso manual para conhecer mais detalhes sobre o programa. Para contratar um curso, entre em contato e preencha o formulário de interesse.
+
+#Unidades do Senac
+- Capital
+- Centro Universitário Senac - Santo Amaro
+- Aclimação
+- Francisco Matarazzo
+- Itaquera
+- Jabaquara
+- Jardim Primavera
+- Lapa Faustolo
+- Lapa Scipião
+- Lapa Tito
+- Largo Treze
+- Penha
+- Nações Unidas
+- Santana
+- São Miguel Paulista
+- Tatuapé Cel. Luís Americano
+- Ttuapé Serra de Bragança
+- Tiradentes
+- Vila Prudente
+- Grande São Paulo e Litoral
+- Bertioga
+- Guarulhos Celestino
+- Guarulhos Faccini
+- Osasco
+- Santos
+- Santo André
+- São Bernardo do Campo
+- Taboão da Serra
+- Interior
+- Americana
+- Araçatuba
+- Araraquara
+- Barretos
+- Bauru
+- Bebedouro
+- Botucatu
+- Campinas
+- Catanduva
+- Centro Universitário Senac - Águas de São Pedro
+- Centro Universitário Senac - Campos do Jordão
+- Franca
+- Guaratinguetá
+- Itapetininga
+- Itapira
+- Itu
+- Jaboticabal
+- Jaú
+- Jundiaí
+- Limeira
+- Marília
+- Mogi Guaçu
+- Ourinhos
+- Pindamonhangaba
+- Piracicaba
+- Presidente Prudente
+- Registro
+- Ribeirão Preto
+- Rio Claro
+- Salto
+- São Carlos
+- São João da Boa Vista
+- São José do Rio Preto
+- São José dos Campos
+- Sorocaba
+- Taubaté
+- Votuporanga
+
+#Descontos e Parcelamento
+- Para saber mais sobre descontos e parcelamentos acesse: https://www.sp.senac.br/descontos-e-parcelamentos
+
+
 
 
 
