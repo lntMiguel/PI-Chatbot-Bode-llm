@@ -39,4 +39,15 @@ public class AssistantService {
         // Retorna um Flux para o cliente consumir
         return sink.asFlux();
     }
+
+    /*private final ChatLanguageModel chatLanguageModel;
+
+    public AssistantService(ChatLanguageModel chatLanguageModel) {
+        this.chatLanguageModel = chatLanguageModel;
+    }
+
+    public String chat(String userMessage) {
+        // Envia a mensagem para o modelo na Hugging Face e retorna a resposta
+        return chatLanguageModel.chat(userMessage).text();
+    }*/
 }

@@ -10,6 +10,9 @@ import static dev.langchain4j.data.document.splitter.DocumentSplitters.recursive
 import static dev.langchain4j.data.document.loader.FileSystemDocumentLoader.loadDocument;
 import java.io.FileNotFoundException;
 
+import dev.langchain4j.model.huggingface.HuggingFaceChatModel;
+
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import dev.langchain4j.data.document.parser.TextDocumentParser;
@@ -17,6 +20,7 @@ import dev.langchain4j.data.segment.TextSegment;
 import dev.langchain4j.memory.chat.ChatMemoryProvider;
 import dev.langchain4j.memory.chat.TokenWindowChatMemory;
 import dev.langchain4j.model.Tokenizer;
+import dev.langchain4j.model.chat.ChatLanguageModel;
 import dev.langchain4j.model.embedding.EmbeddingModel;
 import dev.langchain4j.model.embedding.onnx.allminilml6v2.AllMiniLmL6V2EmbeddingModel;
 import dev.langchain4j.model.ollama.OllamaChatModel;
@@ -102,4 +106,12 @@ public class LangChainConfig {
         // Tokenizer is provided by langchain4j-open-ai-spring-boot-starter
         return chatId -> TokenWindowChatMemory.withMaxTokens(1000, tokenizer);
     }
+
+    /* @Bean
+    public ChatLanguageModel chatLanguageModel() {
+        return HuggingFaceInferenceModel.builder()
+            .apiKey("HUGGING_FACE_API_KEY")  // Coloque aqui seu token de API da Hugging Face
+            .modelId("recogna-nlp/bode-7b-alpaca-pt-br")  // Modelo da Hugging Face
+            .build();
+    }*/
 }

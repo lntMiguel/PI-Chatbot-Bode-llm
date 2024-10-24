@@ -6,9 +6,13 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 
 import br.com.miguel.kaipiva.service.AssistantService;
+import org.springframework.web.bind.annotation.*;
+
 import reactor.core.publisher.Flux;
 
 
@@ -35,4 +39,16 @@ public class AssistantController {
             throw e; // Re-lançar a exceção após o log
         }
     }
+/* 
+  private final AssistantService assistantService;
+
+    public AssistantController(AssistantService assistantService) {
+        this.assistantService = assistantService;
+    }
+
+    @PostMapping("/chat")
+    public String chat(@RequestParam String message) {
+        return assistantService.chat(message);
+    }
+        */
 }
