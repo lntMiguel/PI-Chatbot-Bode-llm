@@ -60,6 +60,8 @@
             <optional>true</optional>
         </dependency>
 
+	
+
         <!-- LangChain4j dependencies -->
         <dependency>
             <groupId>dev.langchain4j</groupId>
