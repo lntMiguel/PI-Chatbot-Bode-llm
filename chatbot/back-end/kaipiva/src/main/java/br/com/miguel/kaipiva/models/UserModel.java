@@ -1,19 +1,22 @@
 package br.com.miguel.kaipiva.models;
 
+import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 import lombok.Data;
 
 @Data
 @Document(collection = "users")
 public class UserModel {
+    @Indexed(unique = true)
     private String email;
+    
     private String password;
 
     UserModel(String email, String password){
         this.email = email;
         this.password = password;
     }
-
+    
     public String getEmail(){
         return this.email;
     }

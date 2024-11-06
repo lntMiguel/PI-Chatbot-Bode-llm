@@ -68,7 +68,11 @@ function LoginBody(){
   const router = useRouter();  
 
   const handleRedirect = () => {
-    router.push('/chat');
+    router.push('/loginForm');
+  };
+
+  const handleCadastro = () => {
+    router.push('/cadastroForm');
   };
 
   return(
@@ -76,7 +80,7 @@ function LoginBody(){
       <Box className="box" >
       <img className="mas" src="imagem/mascote.png"/>  
       <button onClick={handleRedirect}>Login</button>
-      <button>Cadastrar</button>
+      <button onClick={handleCadastro}>Cadastrar</button>
       
       </Box>
     </Styledbody>

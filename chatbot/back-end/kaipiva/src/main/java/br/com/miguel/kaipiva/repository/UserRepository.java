@@ -6,6 +6,6 @@ import br.com.miguel.kaipiva.models.UserModel;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface UserRepository extends MongoRepository<UserModel,String>{
-    Optional<UserModel> findByEmail(String email);
+    Optional<UserModel> findByEmailAndPassword(String email, String password);
 }
 
