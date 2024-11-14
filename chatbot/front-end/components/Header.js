@@ -14,7 +14,7 @@ const StyledHeader = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 70%;
     z-index: -1;
     filter: blur(4px);
     
@@ -52,24 +52,6 @@ const StyledHeader = styled.div`
 
 
 `
-/* &button {
-    background-color: #2967F4;
-    color: white;
-    font-family: "Montserrat";
-    font-weight: bold;
-    cursor: pointer;
-    padding: 10px 14px;
-    margin-left: 10px;
-    font-size: 15px;
-    border-color: #004A8C;
-    border-width: 0.0625rem;
-    border-radius:10px;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    left: 430px;
-    z-index: 1;
-  }*/
 
 function Header(){
     return(

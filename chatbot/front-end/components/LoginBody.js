@@ -24,7 +24,6 @@ const Styledbody = styled.div`
   button {
   font-family: "Montserrat";
   font-weight: bold;
-  
   border: 2px solid #24b4fb;
   background-color: #24b4fb;
   border-radius: 0.9em;
