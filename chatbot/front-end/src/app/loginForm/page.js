@@ -7,9 +7,9 @@ import styled from 'styled-components';
 
 const StyledDados = styled.div`
 
-   display: flex;
-   justify-content: center;
-   align-items: center; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 
  & input {
     color: #fff;
@@ -25,7 +25,7 @@ const StyledDados = styled.div`
   & label {
     font-family: "Montserrat";
     font-weight: bold;
-    font-size: 20px;
+    font-size: 10px;
     color: white;
     position: absolute;
     left: 15px;

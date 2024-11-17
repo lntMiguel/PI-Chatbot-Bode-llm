@@ -35,19 +35,20 @@ const styles = {
     overflowY: 'auto',
     marginBottom: '20px',
     display: 'flex',
-    flexDirection: 'column',
-  },
+    flexDirection: 'column', 
+    },
   userMessage: {
-    backgroundColor: '#0071e2',
+    backgroundColor: '#343a40',
     display: 'flex',
     alignItems: 'center',
     marginBottom: '15px',
     padding: '10px',
     borderRadius: '8px',
-    flexDirection: 'row-reverse',
+    flexDirection: 'row-reverse', 
     maxWidth: '97%',
     wordWrap: 'break-word',
     whiteSpace: 'pre-wrap', 
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)',
   },
   botMessage: {
     backgroundColor: '#004aad',
@@ -59,7 +60,9 @@ const styles = {
     flexDirection: 'row',  
     maxWidth: '97%',
     wordWrap: 'break-word',
-    whiteSpace: 'pre-wrap', 
+    whiteSpace: 'pre-wrap',
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.1)', 
+    
   },
   avatarContainer: {
     marginRight: '10px',  
@@ -71,6 +74,7 @@ const styles = {
     borderRadius: '50%',
   },
   text: {
+    color: 'white',
     fontSize: '1.2rem',
     fontFamily: 'Montserrat',
     fontWeight: 'bold',
@@ -96,7 +100,7 @@ const styles = {
   },
   sendButton: {
     padding: '10px 15px',
-    backgroundColor: '#007bff',
+    backgroundColor: 'black',
     color: 'white',
     border: 'none',
     borderRadius: '5px',
@@ -107,8 +111,75 @@ const styles = {
   },
   sendButtonActive: {
     backgroundColor: '#003f7f',
-  }
+  },
+  typingIndicator: {
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: '15px',
+    position: 'relative',
+  },
+  typingBalloon: {
+    position: 'absolute',
+    bottom: '20px',
+    padding: '8px 20px',
+    backgroundColor: 'black',
+    borderRadius: '20px',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    animation: 'typingBalloonAnimation 1.5s infinite',
+  },
+  typingDot: {
+    width: '10px',
+    height: '10px',
+    backgroundColor: 'white',
+    borderRadius: '50%',
+    margin: '0 5px',
+    animation: 'typing 1.5s infinite ease-in-out', // Aplicando animação de movimento para cada bolinha
+  },
+  typingDot1: {
+    animationDelay: '0s',
+  },
+  typingDot2: {
+    animationDelay: '0.3s',
+  },
+  typingDot3: {
+    animationDelay: '0.6s',
+  },
 };
+
+const globalStyles = `
+  @keyframes typing {
+    0% {
+      transform: translateY(0);
+      opacity: 0.5;
+    }
+    50% {
+      transform: translateY(-10px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 0.5;
+    }
+  }
+
+  @keyframes typingBalloonAnimation {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+  }
+`;
 
 export default function Chatbot() {
   // Estado para armazenar as mensagens do chat
@@ -120,7 +191,7 @@ export default function Chatbot() {
   // Estado para armazenar o chatId, utilizado para identificar sessões de chat
   const [chatId, setChatId] = useState('');
 
-  const [isSending, setIsSending] = useState(false);
+  const [isThinking, setIsThinking] = useState(false);
 
   useEffect(() => {
     // Tentar carregar o chatId do localStorage ao montar o componente (ou seja, quando a página carrega)
@@ -141,6 +212,7 @@ export default function Chatbot() {
     const userMessage = { from: "user", text: input };
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     setInput('');
+    setIsThinking(true);
 
     try {
       // Envia uma requisição POST para o back-end com o chatId e a mensagem do usuário
@@ -164,13 +236,11 @@ export default function Chatbot() {
       // Cria um objeto de mensagem do bot e adiciona à lista de mensagens
       const botMessage = { from: "bot", text: data };
       setMessages((prevMessages) => [...prevMessages, botMessage]);
-      
-
-
+      setIsThinking(false);
       setInput(''); // Limpa o campo de entrada após enviar a mensagem
     } catch (error) {
       console.error(error); // Caso ocorra algum erro, exibe no console
-     
+      setIsThinking(false);
     }
   };
 
@@ -180,8 +250,16 @@ export default function Chatbot() {
     return 'chat-' + Math.random().toString(36).substring(2, 15);
   };
 
+  const handleKeyPress = (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault(); // Evita que o formulário seja enviado
+      sendMessage(); // Chama a função de enviar a mensagem ao pressionar Enter
+    }
+  };
+
   return (    
   <div>
+    <style>{globalStyles}</style>
   <img className="fundo" src="imagem/senacs.png"  style={styles.img}/>
      <div style={styles.chatContainer}>
       <div style={styles.messages}>
@@ -200,18 +278,26 @@ export default function Chatbot() {
           </div>
         ))}
       </div>
-      {!isSending &&(
+      {isThinking && (
+        <div style={styles.typingIndicator}>
+              <div style={styles.typingBalloon}>
+                <div style={{ ...styles.typingDot, ...styles.typingDot1 }}></div>
+                <div style={{ ...styles.typingDot, ...styles.typingDot2 }}></div>
+                <div style={{ ...styles.typingDot, ...styles.typingDot3 }}></div>
+              </div>
+            </div>
+          )}
       <div style={styles.inputContainer}>
         <input
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          onKeyDown={handleKeyPress}
           placeholder="Digite sua mensagem..."
           style={styles.input}
         />
         <button onClick={sendMessage} style={styles.sendButton}>💬</button>
         </div>
-      )}
     </div>
     </div>
   );

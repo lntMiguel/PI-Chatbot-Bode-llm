@@ -38,46 +38,46 @@ const StyledDados = styled.div`
  & input:focus + label,
   & input:not(:placeholder-shown) + label {
     bottom: 35px;
-    font-size: 10px;
+    font-size: 16px;
     color: #24b4fb;
   }
 
-  '& .email { 
-    position: relative;
-    bottom: 140px;
-  }
+& .email {
+  position: relative;
+  bottom: 140px;
+}
 
-  & .senha {
-    position: relative;
-    bottom: 120px;
-  }
+& .senha {
+  position: relative;
+  bottom: 120px;
+}
 
-  & button {
-    font-family: "Montserrat";
-    font-weight: bold;
-    border: 2px solid #24b4fb;
-    background-color: #24b4fb;
-    border-radius: 0.9em;
-    cursor: pointer;
-    padding: 0.8em 1.2em 0.8em 1em;
-    transition: all ease-in-out 0.2s;
-    font-size: 20px;
-    width: 200px; 
-    position: relative;
-    left: 60px;
-    bottom: 50px;
-  }
+& button {
+  font-family: "Montserrat";
+  font-weight: bold;
+  border: 2px solid #24b4fb;
+  background-color: #24b4fb;
+  border-radius: 0.9em;
+  cursor: pointer;
+  padding: 0.8em 1.2em 0.8em 1em;
+  transition: all ease-in-out 0.2s;
+  font-size: 20px;
+  width: 200px; 
+  position: relative;
+  left: 60px;
+  bottom: 50px;
+}
 
-  & button span {
-    color: #fff;
-    font-weight: 600;
-  }
+& button span {
+  color: #fff;
+  font-weight: 600;
+}
 
-  & button:hover {
-    color: #ffb46e;
-    background-color: #0071e2;
-  }
-  `
+& button:hover {
+  color: #ffb46e;
+  background-color: #0071e2;
+}
+`
 
 export default function CadastroForm() {
   const [email, setEmail] = useState('');

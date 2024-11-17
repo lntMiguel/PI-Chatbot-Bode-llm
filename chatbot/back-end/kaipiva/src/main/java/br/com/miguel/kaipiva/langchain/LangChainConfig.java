@@ -18,7 +18,7 @@ public class LangChainConfig {
     @Bean
     public OllamaChatModel chatLanguageModel() {
         return OllamaChatModel.builder()
-                .baseUrl("oi") // URL da API onde o modelo está hospedado.
+                .baseUrl("q") // URL da API onde o modelo está hospedado.
                 .modelName("LNT/kaipiva") // Nome do modelo que será utilizado.
                 .temperature(0.8) // Controla a "criatividade" das respostas; quanto maior, mais variada a resposta.
                 .timeout(Duration.ofSeconds(60)) // Define um tempo limite para as respostas da IA.
@@ -29,7 +29,7 @@ public class LangChainConfig {
     @Bean
     public OllamaStreamingChatModel streamingChatModel() {
         return OllamaStreamingChatModel.builder()
-                .baseUrl("oi") // URL da API para o modelo em modo de fluxo.
+                .baseUrl("q") // URL da API para o modelo em modo de fluxo.
                 .modelName("LNT/kaipiva") // Nome do modelo para o modo de streaming.
                 .temperature(0.8) // Define a variabilidade nas respostas.
                 .timeout(Duration.ofSeconds(60)) // Define o tempo limite para respostas no modo de fluxo.
