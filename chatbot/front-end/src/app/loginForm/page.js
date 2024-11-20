@@ -126,7 +126,7 @@ export default function LoginForm() {
         <div className='email'>
           <label></label>
           <input
-            name="Email" autocomplete="off"
+            name="Email" autoComplete="off"
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -138,7 +138,7 @@ export default function LoginForm() {
         <div className='senha'>
           <label></label>
           <input
-            name="Senha" autocomplete="off"
+            name="Senha" autoComplete="off"
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
