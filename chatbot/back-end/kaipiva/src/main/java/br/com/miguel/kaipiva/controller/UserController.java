@@ -34,7 +34,7 @@ public class UserController {
     public ResponseEntity<String> login(@RequestBody UserModel user){
         Optional<UserModel> userOptional = userRepository.findByEmailAndPassword(user.getEmail(), user.getPassword());
         if(!userOptional.isPresent()){
-            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Usuário não encontrado, realize o cadastro");
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Senha ou Email Incorreto!");
         }
 
         if(!userOptional.get().getPassword().equals(user.getPassword())){

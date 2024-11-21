@@ -11,6 +11,9 @@ const StyledDados = styled.div`
   justify-content: center;
   align-items: center; 
 
+  & form {
+  position: relative;
+}
  & input {
     color: #fff;
     font-size: 20px;
@@ -77,6 +80,16 @@ const StyledDados = styled.div`
   color: #ffb46e;
   background-color: #0071e2;
 }
+  & .error-message {
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px; /* Espaço entre a mensagem e o botão */
+  position: absolute; /* Define posição em relação ao formulário */
+  top: -10px;
+  left: 0;
+  right: 0;
+}
 `
 
 export default function CadastroForm() {
@@ -124,7 +137,7 @@ export default function CadastroForm() {
           <div className='email'>
             <label></label>
             <input
-              name="Email" autocomplete="off"
+              name="Email" autoComplete="off"
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -136,7 +149,7 @@ export default function CadastroForm() {
           <div className='senha'>
             <label></label>
             <input
-              name="Senha" autocomplete="off"
+              name="Senha" autoComplete="off"
               type="password"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
@@ -145,7 +158,8 @@ export default function CadastroForm() {
               required
             />
           </div>
-          {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+          {/* Mensagem de erro posicionada acima do botão */}
+          {errorMessage && <div className="error-message">{errorMessage}</div>}
           <button type="submit">Cadastrar</button>
         </form>
       </StyledDados>

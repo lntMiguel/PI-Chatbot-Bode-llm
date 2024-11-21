@@ -11,6 +11,9 @@ const StyledDados = styled.div`
   justify-content: center;
   align-items: center; 
 
+  & form {
+  position: relative;
+}
  & input {
     color: #fff;
     font-size: 20px;
@@ -76,6 +79,16 @@ const StyledDados = styled.div`
 & button:hover {
   color: #ffb46e;
   background-color: #0071e2;
+}
+  & .error-message {
+  color: red;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px; /* Espaço entre a mensagem e o botão */
+  position: absolute; /* Define posição em relação ao formulário */
+  top: -10px;
+  left: 0;
+  right: 0;
 }
 `
 
@@ -147,7 +160,8 @@ export default function LoginForm() {
             required
           />
         </div>
-        {errorMessage && <p style={{ color: 'red' }}>{errorMessage}</p>}
+        {/* Mensagem de erro posicionada acima do botão */}
+        {errorMessage && <div className="error-message">{errorMessage}</div>}
         <button type="submit">Login</button>
       </form>
       </StyledDados>
