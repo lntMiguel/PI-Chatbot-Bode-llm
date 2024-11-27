@@ -59,7 +59,7 @@ function Header(){
           <div>
             <img className="logo" src="https://www.sp.senac.br/o/senac-theme/images/logo_senac_default.png"  height="50px" />
             <a href="https://www.sp.senac.br">Senac SP</a>
-            <a href="https://www.sp.senac.br">Suporte</a>
+            <a href="https://www.sp.senac.br/fale-com-a-gente">Suporte</a>
           </div>
             <img className="fundo" src="imagem/fundo2.png" height="auto" width="100%"/>
         </StyledHeader>
