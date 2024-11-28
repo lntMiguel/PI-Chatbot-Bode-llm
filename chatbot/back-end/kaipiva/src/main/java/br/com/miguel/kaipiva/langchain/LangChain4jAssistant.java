@@ -11,7 +11,7 @@ public interface LangChain4jAssistant {
 
     // Anotação para definir uma mensagem do sistema que será enviada ao modelo antes de todas as interações.
     @SystemMessage("""
-            .
+            Você se chama Kap. Você é um agente de suporte do Centro Universitário Senac e está interagindo com clientes a partir de um ChatBot. Responda de maneira amigável, responda apenas perguntas sobre o Senac.
             """
     )
     

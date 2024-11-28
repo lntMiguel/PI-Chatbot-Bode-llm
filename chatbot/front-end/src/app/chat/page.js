@@ -1,5 +1,5 @@
 'use client'; // Essa diretiva é usada em Next.js para indicar que esse código é executado no lado do cliente
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const styles = {
   img: {
@@ -192,7 +192,9 @@ export default function Chatbot() {
   const [chatId, setChatId] = useState('');
 
   const [isThinking, setIsThinking] = useState(false);
-
+  
+  const messagesEndRef = useRef(null);
+  
   useEffect(() => {
     // Tentar carregar o chatId do localStorage ao montar o componente (ou seja, quando a página carrega)
     let storedChatId = localStorage.getItem('chatId');
@@ -204,7 +206,10 @@ export default function Chatbot() {
     }
     setChatId(storedChatId); // Define o chatId carregado ou gerado
   }, []); // O array vazio faz com que este efeito execute apenas uma vez, durante a montagem do componente
-
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [messages]);
+  
   const sendMessage = async () => {
     if (!input.trim()) return; // Verifica se a mensagem é vazia ou contém apenas espaços; se sim, não envia
 
@@ -275,7 +280,9 @@ export default function Chatbot() {
             <div style={styles.text}>
               <strong>{msg.from === 'user' ? 'Você' : 'Kaipiva'}:</strong> {msg.text}
             </div>
+            <div ref={messagesEndRef}></div>
           </div>
+          
         ))}
       </div>
       {isThinking && (
